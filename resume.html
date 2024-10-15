@@ -1,33 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Resume - Aparna Krishnan</title>
 </head>
 <body>
-    <header>
+    <!-- Replacing header with div -->
+    <div id="header">
         <h1>Aparna Krishnan's Resume</h1>
-        <nav>
+        <!-- Replacing nav with div -->
+        <div id="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
+        </div>
+    </div>
+
+    <!-- Replacing main with div -->
+    <div id="main-content">
         <h2>Objective</h2>
         <p>Driven final-year Computer Science and Engineering student with a proven ability to quickly learn and adapt to new technologies.</p>
         
         <h2>Education</h2>
-        <p>Government Engineering College Thrissur, Kerala<br>
+        <p>Government Engineering College Thrissur, Kerala<br />
         Bachelor of Technology in Computer Science (CGPA: 8.5) 2021 – 2025</p>
 
         <h2>Experience</h2>
-        <p><strong>Python Content Developer Intern</strong><br>
-        Bolt IoT (April 2024 - June 2024)<br>
+        <p><strong>Python Content Developer Intern</strong><br />
+        Bolt IoT (April 2024 - June 2024)<br />
         Developed CalorEase project and assisted users in Python programming.</p>
 
         <h2>Skills</h2>
@@ -38,9 +42,18 @@
 
         <h2>Hobbies</h2>
         <p>Painting, Playing Musical Instruments, Traveling, Dancing, Badminton</p>
-    </main>
-    <footer>
+    </div>
+
+    <!-- Replacing footer with div -->
+    <div id="footer">
         <p>&copy; 2024 Aparna Krishnan</p>
-    </footer>
+        <!-- Valid XHTML Icon -->
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+            </a>
+        </p>
+    </div>
 </body>
 </html>
+
